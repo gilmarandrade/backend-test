@@ -18,5 +18,5 @@ consign()
 
 const port = process.env.PORT || 3000;
 app.listen(port, ()=>{
-  console.log('Backend executando na porta %s', port);
+  console.log('[uniqua-com] BACKEND executando na porta %s', port);
 });
